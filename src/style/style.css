@@ -2,6 +2,8 @@
   --color-primary-1: #122AB2;
   --color-primary-2: #2C70FF;
   --color-white: #FFFFFF;
+  --color-grey-1: #7C7C7C;
+  --max-width: 960px;
 }
 
 .superinfo-bg{
@@ -11,7 +13,7 @@
 
 .superinfo{
   font-weight: 700;
-  max-width: 960px;
+  max-width: var(--max-width);
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -32,7 +34,7 @@
 }
 
 .menu{
-  max-width: 960px;
+  max-width: var(--max-width);
   margin: 0 auto;
   padding: 15px 0;
   display: flex;
@@ -64,4 +66,46 @@
 
 .menu-nav a:hover{
   color: var(--color-primary-1);
+}
+
+.introducao{
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 60px 10px;
+}
+.introducao h1{
+  font-size: 3em;
+  line-height: 1;
+}
+
+.sobre{
+  border-top: 2px solid var(--color-primary-2);
+  border-bottom: 2px solid var(--color-primary-2);
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 60px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sobre-info{
+  flex: 2 1 300px;
+  margin: 0 10px;
+}
+
+.sobre-info h2{
+  font-size: 3em;
+  margin-bottom: .5em;
+}
+
+.sobre-info p{
+  font-size: 1.25em;
+  line-height: 1.4;
+  margin-bottom: 1em;
+  color: var(--color-grey-1);
+}
+
+.sobre-img{
+  flex: 1 1 160px;
+  margin: 0 10px;
 }
