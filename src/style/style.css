@@ -336,6 +336,10 @@
   padding: 15px 10px;
 }
 
+.newsletter-form button:hover{
+  color: var(--color-primary-1);
+}
+
 .footer{
   height: 200px;
   background-color: var(--color-primary-2);
