@@ -1,5 +1,6 @@
 :root{
-  --color-primary-1: #122ab2;
+  --color-primary-1: #122AB2;
+  --color-primary-2: #2C70FF;
   --color-white: #FFFFFF;
 }
 
@@ -9,6 +10,7 @@
 }
 
 .superinfo{
+  font-weight: 700;
   max-width: 960px;
   margin: 0 auto;
   display: flex;
@@ -23,4 +25,43 @@
 
 .superinfo-bg a{
   color: var(--color-white);
+}
+
+.menu-bg{
+  background-color: var(--color-primary-2);
+}
+
+.menu{
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 15px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu a{
+  color: var(--color-white);
+}
+
+.menu-logo a{
+  font-size: 2.25em;
+  font-weight: 700;
+  margin: 0 10px;
+}
+
+.menu-nav ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu-nav a{
+  font-size: 1.25em;
+  display: block;
+  padding: 10px;
+}
+
+.menu-nav a:hover{
+  color: var(--color-primary-1);
 }
