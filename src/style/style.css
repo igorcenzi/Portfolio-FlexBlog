@@ -232,6 +232,11 @@
   text-align: center;
 }
 
+.preco-item a:hover{
+  color: var(--color-primary-2);
+  border-color: var(--color-primary-1);
+}
+
 .qualidade{
   max-width: var(--max-width);
   margin: 60px auto;
