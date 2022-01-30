@@ -5,8 +5,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./src/style/reset.css">
 <link rel="stylesheet" href="./src/style/style.css">
 <title>FlexBlog</title>
 </head>
@@ -23,19 +24,20 @@
       <div class="menu-logo">
         <a href="">FlexBlog</a>
       </div>
-      <nav>
+      <nav class="menu-nav">
         <ul>
-          <li href="#sobre">Sobre</li>
-          <li href="#produtos">Produtos</li>
-          <li href="#preco">Preço</li>
-          <li href="#qualidade">Qualidade</li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#produtos">Produtos</a></li>
+          <li><a href="#preco">Preço</a></li>
+          <li><a href="#qualidade">Qualidade</a></li>
         </ul>
       </nav>
     </div>
   </header>
-  <h1 class="introducao">Novos valores e</h1>
-  <h1 class="introducao">Propriedades do CSS</h1>
-
+  <div class="introducao">
+    <h1>Novos valores e</h1>
+  <h1>Propriedades do CSS</h1>
+  </div>
   <section class="sobre" id="sobre">
     <div class="sobre-info">
       <h2>Sobre</h2>
@@ -140,7 +142,7 @@
       <p>assine e fique por dentro das novidades</p>
     </div>
     <form class="newsletter-form">
-      <input type="text" placeholder="Seu e-mail">
+      <input type="email" placeholder="Seu e-mail">
       <button type="submit">Assinar</button>
     </form>
   </section>
